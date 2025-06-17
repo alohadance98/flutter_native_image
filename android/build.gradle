@@ -1,5 +1,5 @@
 group 'com.example.flutternativeimage'
-version '1.0-SNAPSHOT'
+version '1.0'
 
 buildscript {
     repositories {
@@ -8,7 +8,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.1'
+        classpath 'com.android.tools.build:gradle:7.3.0'
     }
 }
 
@@ -23,10 +23,10 @@ apply plugin: 'com.android.library'
 
 android {
     namespace 'com.example.flutternativeimage'
-    compileSdkVersion 28
+    compileSdk 34
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 19
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {

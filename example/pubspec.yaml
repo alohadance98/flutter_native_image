@@ -2,7 +2,7 @@ name: flutter_native_image_example
 description: Demonstrates how to use the flutter_native_image plugin.
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=2.12.0 <4.0.0'
 
 dependencies:
   flutter:
@@ -10,7 +10,12 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.0
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  path_provider: ^2.1.5
+  permission_handler: ^11.1.0
+  flutter_native_image:
+    path: ../
 
 dev_dependencies:
   flutter_test:
@@ -18,6 +23,7 @@ dev_dependencies:
 
   flutter_native_image:
     path: ../
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
